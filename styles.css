@@ -224,19 +224,21 @@ main{
 }
 
 .dev-icons{
-    padding: 20px 0px;
     display: flex;
+    margin: auto;
     flex-wrap: wrap;
+    max-width: 500px;
+    padding: 20px;
 }
 
 .dev-icons i{
-    font-size: 2.4rem;
+    font-size: 4.5rem;
     margin: 10px;
 }
-
 .dev-icons i{
     transition: .3s;
     position: relative;
+    padding: 5px;
 }
 
 .dev-icons i:hover{
@@ -281,8 +283,15 @@ p{
 
 .cnt-links, .cnt-links a{
     font-size: 1.5rem;
-    text-align: center;
     margin: 5px;
+}
+
+.foot-container{
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
 }
 /* ABOUT */
 
