@@ -146,9 +146,8 @@ ul{
 }
 
 .res-btn:hover{
-    background-color: #333;
-    color: #fff;
-}
+    color:  rgb(223, 103, 135);
+}  
 
 @keyframes slide-in {
     from {
@@ -219,7 +218,7 @@ main{
 }
 
 .marketing-container img{
-    max-width: 100%;
+    max-width: 50%;
     width: 100%;
 }
 
@@ -629,6 +628,9 @@ p{
     .cards-container{
         flex-direction: column;
         align-items: center;
+    }
+    .marketing-container img{
+        min-width: 100%;
     }
 }
 
