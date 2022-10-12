@@ -135,20 +135,6 @@ ul{
     position: relative;
 }
 
-.res-btn{
-    padding: 12px 24px;
-    border: 1px solid #333;
-    border-radius: 4px;
-    margin-right: 8px;
-    color: #333;
-    opacity: 1;
-    transition: .3s ease-in-out;
-}
-
-.res-btn:hover{
-    color:  rgb(223, 103, 135);
-}  
-
 @keyframes slide-in {
     from {
       transform: translateX(100%);
@@ -199,11 +185,6 @@ ul{
 .hero-text{
     max-width: 800px;
     line-height: 1.6;
-}
-
-.hero-btn{
-    margin-top: 20px;
-    display: inline-block;
 }
 
 /* MAIN */
@@ -265,18 +246,18 @@ p{
 
 .btn{
     display: inline-block;
-    padding: 12px 24px;
-    border-radius: 4px;
+    padding: 12px 60px;
+    border: 1px solid #333;
     margin-right: 8px;
-    color: #fff;
-    background-color: rgb(223, 103, 135);
+    color: #333;
     opacity: 1;
     transition: .3s ease-in-out;
     margin: 10px 0px;
 }
 
 .btn:hover{
-    background-color: #333;
+    background-color:#333;
+    color: #fff;
     
 }
 
