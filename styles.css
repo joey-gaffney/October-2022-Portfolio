@@ -99,16 +99,20 @@ ul{
     width: 100%;
 } */
 
-.nav-btn{
-    padding: 6px 12px;
-    border-radius: 4px;
-    background-color: rgb(0, 98, 255);
-    color: #fff;
-    transition: .3s ease-in-out;
-}
 
-.nav-btn:hover{
-    opacity: .8;
+.navbtn{
+    /* display: inline-block; */
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    margin-right: 8px;
+    color: #fff;
+    opacity: 1;
+    transition: .3s ease-in-out;
+    margin: 10px 0px;
+}
+.navbtn:hover{
+    background-color:#fff;
+    color: #333;
 }
 
 .toggle-button{
@@ -195,7 +199,9 @@ main{
 }
 
 .marketing-container{
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .marketing-container img{
